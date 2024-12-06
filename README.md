@@ -34,7 +34,7 @@ Repository Contributors: [Claire Pajot](https://github.com/cmpajot), [Hikaru Hot
 Clone the repository.
 
 ```
-git clone git@github.com:GANtastic3/MaskCycleGAN-VC.git
+git clone https://github.com/JoeCode20/MaskCycleGAN-VC.git
 cd MaskCycleGAN-VC
 ```
 
@@ -58,7 +58,6 @@ wget --no-check-certificate https://datashare.ed.ac.uk/bitstream/handle/10283/30
 Unzip the dataset file.
 ```
 mkdir vcc2018
-apt-get install unzip
 unzip vcc2018_database_training.zip?sequence=2 -d vcc2018/
 unzip vcc2018_database_evaluation.zip?sequence=3 -d vcc2018/
 unzip vcc2018_database_reference.zip?sequence=5 -d vcc2018/
